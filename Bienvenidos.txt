@@ -14,25 +14,7 @@
 <body>
     <!-- Header -->
     <header class="d-flex justify-content-between container-fluid pt-2 align-items-center mb-3 border border-1 rounded">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png" height="100px" alt="">
-        <div>
-            <a href="https://www.facebook.com/intecapoficial/?locale=es_LA" target="_blank"><img
-                    src="https://cdn4.iconfinder.com/data/icons/social-icons-16/512/Facebook-256.png" alt=""
-                    height="50px" class="md-3"></a>
-            <a href="https://twitter.com/intecapoficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-                target="_blank"><img
-                    src="https://cdn4.iconfinder.com/data/icons/social-media-black-white-2/1227/X-256.png" alt=""
-                    height="40px" class="md-3"></a>
-            <a href="https://www.instagram.com/intecapoficial/p/C0ugMlzuzrq/?img_index=1" target="_blank"><img
-                    src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/instagram-256.png" alt=""
-                    height="40px" class="md-3"></a>
-            <a href="https://www.youtube.com/intecapoficial" target="_blank"><img
-                    src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Youtube_svg-256.png"
-                    alt="" height="40px" class="md-3"></a>
-            <a href="https://gt.linkedin.com/school/intecapoficial/" target="_blank"><img
-                    src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-linkedin-outline-256.png"
-                    alt="" height="50px" class="md-3"></a>
-        </div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png" height="100px" alt=""> 
     </header>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-secondary-subtle px-3 my-5 fs-5 fw-bold">
@@ -55,44 +37,47 @@
     <article class="d-flex container-fluid">
         <section class="w-75 border border-2 rounded me-1">
             <div class=" mb-5 w-50 m-auto">
-                <h2>Ingresos</h2>
+                <h2 class="text-center mt-3">Solucion</h2>
                 <form class="border border-2 rounded p-3">
                     <div class="mb-3">
-                        <label for="salario" class="form-label"></label>
-                        <input type="number" class="form-control" id="salario">
+                        <label for="" class="form-label"></label>
+                        <input type="number" class="form-control" id="">
                     </div>
                     <div class="mb-3">
-                        <label for="cantidadDeAños" class="form-label"></label>
-                        <input type="number" class="form-control" id="cantidadDeAños">
+                        <label for="" class="form-label"></label>
+                        <input type="number" class="form-control" id="">
                     </div>
                     <div class="mb-3">
-                        <label for="cantidadDeMeses" class="form-label"></label>
-                        <input type="number" class="form-control" id="cantidadDeMeses">
+                        <label for="" class="form-label"></label>
+                        <input type="number" class="form-control" id="">
                     </div>
                     <div class="mb-3">
-                        <label for="bonoCatorce" class="form-label"></label>
-                        <label type="number" class="form-control p-3 bg-primary-subtle" id="bonoCatorce"></label>
+                        <label for="" class="form-label"></label>
+                        <label type="number" class="form-control p-3 bg-primary-subtle" id=""></label>
                     </div>
                     <div class="mb-3">
-                        <label for="aguinaldo" class="form-label"></label>
-                        <label type="number" class="form-control p-3 bg-primary-subtle" id="aguinaldo"></label>
+                        <label for="" class="form-label"></label>
+                        <label type="number" class="form-control p-3 bg-primary-subtle" id=""></label>
                     </div>
                     <div class="mb-3">
-                        <label for="salarioPendiente" class="form-label"></label>
-                        <input type="number" class="form-control" id="salarioPendiente">
+                        <label for="" class="form-label"></label>
+                        <input type="number" class="form-control" id="">
                     </div>
                     <div class="mb-3">
-                        <label for="deudas" class="form-label"></label>
-                        <input type="text" class="form-control" id="deudas">
+                        <label for="" class="form-label"></label>
+                        <input type="text" class="form-control" id="">
                     </div>
                 </form>
             </div>
             <div class="w-100 text-center mb-3">
-                <button type="button" class="btn btn-primary" id="indemnizacion"></button>
-                <div class="bg-info-subtle w-50 m-auto p-2 mt-3 rounded" id="resultado"></div>
+                <button type="button" class="btn btn-primary" id=""></button>
+                <div class="bg-info-subtle w-50 m-auto p-2 mt-3 rounded" id="resultado">Resultado</div>
             </div>
         </section>
-        <section class=" border border-2 rounded w-25 text-center">
+        <section class="d-flex flex-column justify-content-between align-items-center border border-2 rounded w-25">
+            <div class="mt-5">
+                <h4>Archivo creado por: </h4>
+            </div>
             <img class="my-2"
                 src="https://yt3.googleusercontent.com/72to4u2Kf6DllNJP3NoYYVppvNWelItQKNM7WGuZ0i6YrqcPKJrxj9M600gzYrLEtZSgRIbpcw=s900-c-k-c0x00ffffff-no-rj"
                 alt="" height="300px">
