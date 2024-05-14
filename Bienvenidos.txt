@@ -1,0 +1,17 @@
+
+<nav class="navbar navbar-expand-lg bg-secondary-subtle px-3 my-5 fs-5 fw-bold">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="index.html">Solución 1</a>
+                <a class="nav-link" href="solucion2.html">Solución 2</a>
+                <a class="nav-link" href="solucion3.html">Solución 3</a>
+                <a class="nav-link active" href="solucion4.html">Solución 4</a>
+            </div>
+        </div>
+    </div>
+</nav>
