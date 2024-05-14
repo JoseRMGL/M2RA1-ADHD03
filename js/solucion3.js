@@ -4,5 +4,5 @@ $(document).ready(function(){
     const texto1 = $("#texot1").val();
     const texto2 = $("#texto2").val();
 
-    $("#")
+    $("#resultado")
 });
